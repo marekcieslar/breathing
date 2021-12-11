@@ -16,7 +16,12 @@
       <div class="settings__item">
         <label for="settings-breath-count">Breath count:</label>
         <div class="input-and-text">
-          <input type="number" id="settings-breath-count" value="30" />
+          <input
+            type="number"
+            id="settings-breath-count"
+            value="30"
+            pattern="\d*"
+          />
           <span>s.</span>
         </div>
       </div>
@@ -28,6 +33,7 @@
             id="settings-breath-time-in"
             value="2.5"
             step="0.1"
+            pattern="\d*"
           />
           <span>s.</span>
         </div>
@@ -40,6 +46,7 @@
             id="settings-breath-time-out"
             value="1.5"
             step="0.1"
+            pattern="\d*"
           />
           <span>s.</span>
         </div>
@@ -52,6 +59,7 @@
             id="settings-breath-break-empty"
             value="0"
             step="0.1"
+            pattern="\d*"
           />
           <span>s.</span>
         </div>
@@ -64,6 +72,7 @@
             id="settings-breath-break-full"
             value="0"
             step="0.1"
+            pattern="\d*"
           />
           <span>s.</span>
         </div>
